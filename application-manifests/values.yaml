@@ -2,10 +2,10 @@ deployment:
   replicas: 2
   image:
     owner: ramzibouzaiene
-    repository: JWT-Authentication-GoLang
+    repository: ramzibouzaiene/my-app
     tag: 3453453453535sdfgsdfsdfs
   container:
-    name: jwt-authentication-golang-go-auth-app
+    name: ramzibouzaiene/my-app
     port: 8080
 service:
   type: NodePort
