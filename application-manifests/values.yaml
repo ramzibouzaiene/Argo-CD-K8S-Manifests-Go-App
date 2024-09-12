@@ -5,7 +5,7 @@ deployment:
     repository: ramzibouzaiene/my-app
     tag: 3453453453535sdfgsdfsdfs
   container:
-    name: ramzibouzaiene/my-app
+    name: my-app
     port: 8080
 service:
   type: NodePort
