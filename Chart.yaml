@@ -1,0 +1,13 @@
+apiVersion: v2
+name: goauthapp
+version: 0.0.1
+description: Helm Chart for go lang application
+type: application
+keywords:
+- goLang
+- Gin
+maintainers:
+- name: Ramzi Bouzaiene
+  email: ramzibouzaiene00@gmail.com
+icon: https://helm.sh/img/helm.svg
+appVersion: 0.0.1

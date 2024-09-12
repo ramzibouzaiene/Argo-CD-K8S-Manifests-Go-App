@@ -1,0 +1,14 @@
+deployment:
+  replicas: 2
+  image:
+    owner: ramzibouzaiene
+    repository: JWT-Authentication-GoLang
+    tag: 3453453453535sdfgsdfsdfs
+  container:
+    name: jwt-authentication-golang-go-auth-app
+    port: 8080
+service:
+  type: NodePort
+  port: 80
+  targetPort: 8080
+  nodePort: 30112
